@@ -1,8 +1,8 @@
 'use strict';
 let username=prompt('enter your name');
-alert('hello  '+username);
+alert('welcome to my website '+username);
 
-let fasting=prompt('do you fasting?, yes or no?');
+let fasting=prompt('are you fasting?, yes or no?');
 //console.log(fasting)
 switch(fasting.toLowerCase())
 {
@@ -65,7 +65,7 @@ switch(sea_food.toLowerCase())
 
 }
 
-let Barbeque=prompt('do you want Barbeque?yes or no ?');
+let Barbeque=prompt('do you want a Barbeque?yes or no ?');
 //console.log(Barbeque)
 switch(Barbeque.toLowerCase())
 {

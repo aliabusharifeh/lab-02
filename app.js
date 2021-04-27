@@ -1,5 +1,5 @@
 'use strict';
-let username=prompt('enter your name');
+/*let username=prompt('enter your name');
 alert('welcome to my website '+username);
 
 let know=prompt('do you know me(y/n)?');
@@ -79,40 +79,5 @@ switch(major.toLowerCase())
     alert('it is an aircraft maintenance');
     break;
 
-}
-
-/*
- let age = Number(prompt('can you guess my age?'));
-
-  if (age > 1) {
-   //alert('no , try one more time');
-   let age = Number(prompt('try one more time'));
-
- } 
- else if (age > 1) {
-   // alert('no , try one more time');
-   let age = Number(prompt('try one more time'));
-
- } 
- else if (age > 1) {
-     alert('no , try one more time');
-    //let age = Number(prompt('try one more time'));
- 
-  } 
-  */
-
-  /*let age = Number(prompt('Hello, Could you please enter your age'));
-
- if (age === 21) {
-    let age = Number(prompt('try one more time'));
- } else if (age > 18) {
-    let age = Number(prompt('try one more time'));
- } 
- else if (age > 18) {
-    let age = Number(prompt('try one more time'));
- }
- else {
-     alert('you cant b/c you are toooo young');
- }*/
-  
+}*/
 

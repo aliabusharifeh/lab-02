@@ -2,40 +2,56 @@
 let username=prompt('enter your name');
 alert('welcome to my website '+username);
 
-let fasting=prompt('are you fasting?, yes or no?');
-//console.log(fasting)
-switch(fasting.toLowerCase())
+let know=prompt('do you know me(y/n)?');
+//console.log(know)
+switch(know.toLowerCase())
 {
     case 'yes':
     case 'y':
-    alert('الله يتقبل');
+    alert('good');
     break;
 
     case'no':
     case'n':
-    alert('الله يهديك');
+    alert('ok');
     break;
 
 }
-let burger=prompt('do you like a burger?yes or no ?');
-//console.log(burger)
-switch(burger.toLowerCase())
+let number=prompt('do you have my number(y/n))?');
+//console.log(number)
+switch(number.toLowerCase())
 {
     case 'yes':
     case 'y':
-    alert(' me too ');
+    alert(' good ');
     break;
 
     case'no':
     case'n':
-    alert(' you should try it');
+    alert('0788141450');
     break;
 
 }
 
-let eat=prompt('do you want burger?yes or no ?');
-//console.log(eat)
-switch(eat.toLowerCase())
+let facebook=prompt('did you get my facebook(y/n)?');
+//console.log(facebook)
+switch(facebook.toLowerCase())
+{
+    case 'yes':
+    case 'y':
+    alert('good');
+    break;
+
+    case'no':
+    case'n':
+    alert('ali w abushareefa');
+    break;
+
+}
+
+let linkedin=prompt('did you get my linkedin(y/n)?');
+//console.log(linkedin)
+switch(linkedin.toLowerCase())
 {
     case 'yes':
     case 'y':
@@ -44,30 +60,14 @@ switch(eat.toLowerCase())
 
     case'no':
     case'n':
-    alert('just think deeply');
+    alert('ali abushareefa');
     break;
 
 }
 
-let sea_food=prompt('do you like a sea food?, yes or no ?');
-//console.log(sea_food)
-switch(sea_food.toLowerCase())
-{
-    case 'yes':
-    case 'y':
-    alert('me too');
-    break;
-
-    case'no':
-    case'n':
-    alert('you should try it');
-    break;
-
-}
-
-let Barbeque=prompt('do you want a Barbeque?yes or no ?');
-//console.log(Barbeque)
-switch(Barbeque.toLowerCase())
+let major=prompt('do you know my major (y/n)?');
+//console.log(major)
+switch(major.toLowerCase())
 {
     case 'yes':
     case 'y':
@@ -76,7 +76,43 @@ switch(Barbeque.toLowerCase())
 
     case'no':
     case'n':
-    alert('just think deeply');
+    alert('it is an aircraft maintenance');
     break;
 
 }
+
+/*
+ let age = Number(prompt('can you guess my age?'));
+
+  if (age > 1) {
+   //alert('no , try one more time');
+   let age = Number(prompt('try one more time'));
+
+ } 
+ else if (age > 1) {
+   // alert('no , try one more time');
+   let age = Number(prompt('try one more time'));
+
+ } 
+ else if (age > 1) {
+     alert('no , try one more time');
+    //let age = Number(prompt('try one more time'));
+ 
+  } 
+  */
+
+  /*let age = Number(prompt('Hello, Could you please enter your age'));
+
+ if (age === 21) {
+    let age = Number(prompt('try one more time'));
+ } else if (age > 18) {
+    let age = Number(prompt('try one more time'));
+ } 
+ else if (age > 18) {
+    let age = Number(prompt('try one more time'));
+ }
+ else {
+     alert('you cant b/c you are toooo young');
+ }*/
+  
+

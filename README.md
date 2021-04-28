@@ -6,4 +6,4 @@
 
 #### i learned about loop(while,for "break ,continue",do while ),if statment,array
 
-#### pair programming : navigator " aliabusharifeh' / driver "saleem diab'
+#### pair programming : navigator " aliabusharifeh' / driver  "saleem diab" // add function

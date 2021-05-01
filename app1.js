@@ -132,7 +132,7 @@ if (i >=4 ){alert(' i am 26');}
 }
 q6();
 
-function q7(){
+/*function q7(){
     
 let food = ['mansaf', 'barbeque', 'burger'];
 for (let i = 0; i < 6; i++) {
@@ -151,4 +151,25 @@ alert(userName+' your score '+score+' of 7');
 alert('thank you for your time');
 }
 
-q7();
+q7();*/
+
+function q7(){
+    
+    var food = ['mansaf', 'barbeque', 'burger'];
+    for (var i = 0; i < 6; i++) {
+        var question7 = prompt('what kind of food i like?');
+        var t = food;
+        if(t == true){
+            alert('Good Answer '+userName+' I like '+food.join(' and '));
+            score +=1;
+            break;
+        }
+    }
+    if(i >=5 ){alert('No '+userName+' I like '+food.join(' and '))}
+    
+    alert(userName+' your score '+score+' of 7');
+    
+    alert('thank you for your time');
+    }
+    
+    q7();
